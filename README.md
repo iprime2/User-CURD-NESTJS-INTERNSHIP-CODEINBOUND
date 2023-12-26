@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains a CRUD (Create, Read, Update, Delete) application built using NestJS framework. It utilizes Prisma ORM as the database toolkit, PostgreSQL as the database engine, Docker for containerization, JWT for authorization, Passport for authentication, and the Class Validator library for user input validation.
+This repository contains a CRUD (Create, Read, Update, Delete) application built using NestJS framework. It utilizes TypeORM as the database toolkit, PostgreSQL as the database engine, Docker for containerization, JWT for authorization, Passport for authentication, and the Class Validator library for user input validation.
 
 ## Getting Started
 
@@ -11,7 +11,8 @@ This repository contains a CRUD (Create, Read, Update, Delete) application built
 Before you start, make sure you have the following installed on your system:
 
 - [Node.js](https://nodejs.org/en/download/): A JavaScript runtime for running the Next.js application.
-- [Docker]([https://nodejs.org/en/download/](https://docs.docker.com/engine/install/)): A Docker to containerize the Postgres DB.
+- [Docker]([https://nodejs.org/en/download/]): A Docker to containerize the Postgres DB.
+- [Postman]([[https://nodejs.org/en/download/](https://docs.docker.com/engine/install/]): A Postman to test Apis.
 - [PNPM](https://pnpm.io/): A package manager (optional) for installing project dependencies.
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/download) or your preferred Integrated Development Environment (IDE): A code editor with extensions that enhance your development experience.
 
@@ -63,17 +64,19 @@ This will create a local copy of the GitHub repository on your machine, which yo
    Create a .env file in the project root and define your environment variables. Example:
 
    ```bash
-   DB_URL=your_database_url
-   OTHER_VARIABLE=your_value
+   DB_USERNAME= db username
+   DB_PASSWORD=db password
+   DB_NAME= db name
+   JWT_SECRET= jwt secret
 
 ### Start the Development Server
 
    To start the development server, run the following command:
 
     #Using NPM 
-    npm run dev
+    npm run start:dev
       
     #OR Using PNPM
-    pnpm dev
+    pnpm run start:dev
 
-Your AQMS application should now be accessible in your browser at http://localhost:3000.
+The application should now be accessible in your browser at http://localhost:3000.
