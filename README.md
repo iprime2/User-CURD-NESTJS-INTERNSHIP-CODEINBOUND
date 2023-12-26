@@ -2,19 +2,7 @@
 
 This repository contains a CRUD (Create, Read, Update, Delete) application built using NestJS framework. It utilizes TypeORM as the database toolkit, PostgreSQL as the database engine, Docker for containerization, JWT for authorization, Passport for authentication, and the Class Validator library for user input validation.
 
-## Getting Started
-
-### Prerequisites
-
-Before you start, make sure you have the following installed on your system:
-
-- [Node.js](https://nodejs.org/en/download/): A JavaScript runtime for running the Next.js application.
-- [Docker]([https://nodejs.org/en/download/]): A Docker to containerize the Postgres DB.
-- [Postman]([[https://nodejs.org/en/download/](https://docs.docker.com/engine/install/]): A Postman to test Apis.
-- [PNPM](https://pnpm.io/): A package manager (optional) for installing project dependencies.
-- [Visual Studio Code (VSCode)](https://code.visualstudio.com/download) or your preferred Integrated Development Environment (IDE): A code editor with extensions that enhance your development experience.
-
-## APIS Endpoints
+## API'S Endpoints
 
 List the available APIs and their endpoints:
 
@@ -28,6 +16,19 @@ List the available APIs and their endpoints:
 - DELETE /users Deletes all users.
 
 For each API, provide the required data to send in the request body or as parameters.
+
+## Getting Started
+
+### Prerequisites
+
+Before you start, make sure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/en/download/): A JavaScript runtime for running the Next.js application.
+- [Docker]([https://nodejs.org/en/download/]): A Docker to containerize the Postgres DB.
+- [Postman]([[https://nodejs.org/en/download/](https://docs.docker.com/engine/install/]): A Postman to test Apis.
+- [PNPM](https://pnpm.io/): A package manager (optional) for installing project dependencies.
+- [Visual Studio Code (VSCode)](https://code.visualstudio.com/download) or your preferred Integrated Development Environment (IDE): A code editor with extensions that enhance your development experience.
+- 
 
 ### Installation
 
