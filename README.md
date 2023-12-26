@@ -28,7 +28,6 @@ Before you start, make sure you have the following installed on your system:
 - [Postman](https://nodejs.org/en/download/): A Postman to test Apis.
 - [PNPM](https://pnpm.io/): A package manager (optional) for installing project dependencies.
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/download) or your preferred Integrated Development Environment (IDE): A code editor with extensions that enhance your development experience.
-- 
 
 ### Installation
 
@@ -86,6 +85,12 @@ This will create a local copy of the GitHub repository on your machine, which yo
 ### Start the Development Server
 
    To start the development server, run the following command:
+
+    #Using NPM 
+    npm db:dev:restart
+      
+    #OR Using PNPM
+    pnpm db:dev:restart
 
     #Using NPM 
     npm run start:dev
