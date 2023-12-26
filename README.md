@@ -18,15 +18,15 @@ Before you start, make sure you have the following installed on your system:
 
 List the available APIs and their endpoints:
 
-- GET /users: Retrieves all users.
-- POST /users/signup: Creates a new user.
-- POST /users/signin: Authenticates a user.
-- PATCH /users/:id: Updates a user's information.
-- PATCH /users/changepassword/:id: Changes a user's password.
-- GET /users/:id: Retrieves a specific user by ID.
-- DELETE /users/:id: Deletes a specific user by ID.
-- DELETE /users: Deletes all users.
-- 
+- GET /users Retrieves all users.
+- POST /users/signup Creates a new user.
+- POST /users/signin Authenticates a user.
+- PATCH /users/:id Updates a user's information.
+- PATCH /users/changepassword/:id Changes a user's password.
+- GET /users/:id Retrieves a specific user by ID.
+- DELETE /users/:id Deletes a specific user by ID.
+- DELETE /users Deletes all users.
+
 For each API, provide the required data to send in the request body or as parameters.
 
 ### Installation
