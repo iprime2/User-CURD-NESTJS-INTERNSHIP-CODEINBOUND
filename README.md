@@ -1,6 +1,8 @@
 # NestJS CRUD Application with TypeORM, PostgreSQL, Docker, JWT, Passport, and Class Validator
 
-## This repository contains a CRUD (Create, Read, Update, Delete) application built using NestJS framework. It utilizes Prisma ORM as the database toolkit, PostgreSQL as the database engine, Docker for containerization, JWT for authorization, Passport for authentication, and the Class Validator library for user input validation.
+## Description
+
+This repository contains a CRUD (Create, Read, Update, Delete) application built using NestJS framework. It utilizes Prisma ORM as the database toolkit, PostgreSQL as the database engine, Docker for containerization, JWT for authorization, Passport for authentication, and the Class Validator library for user input validation.
 
 ## Getting Started
 
