@@ -10,11 +10,23 @@ List the available APIs and their endpoints:
 - POST /users/signup Creates a new user.
 ```bash
   Data should be provided in json fromat example:
- {email:sushil@gmail.com,password:root,firstName:sushil,lastName:gupta}
+ {"email":"sushil@gmail.com","password":"root","firstName":"sushil","lastName":"gupta"}
 ```
-- POST /users/signin Authenticates a user. Data should be provided in json fromat example: {email:sushil@gmail.com,password:root}
-- PATCH /users/:id Updates a user's information. Data should be provided in json fromat example: {email:sushil@gmail.com,firstName:sushil,lastName:gupta}. note: Choose what ypu wan to change.
-- PATCH /users/changepassword/:id Changes a user's password. Data should be provided in json fromat example: {oldPassword:root,newPassword:admin}. note: Choose what ypu wan to change.
+- POST /users/signin Authenticates a user.
+```bash
+  Data should be provided in json fromat example:
+ {"email":"sushil@gmail.com","password":"root"}
+```
+- PATCH /users/:id Updates a user's information.
+```bash
+  Data should be provided in json fromat example:
+{"email":"sushil@gmail.com","firstName":"sushil","lastName":"gupta"}. note: Choose what ypu wan to change.
+```
+- PATCH /users/changepassword/:id Changes a user's password.
+```bash
+  Data should be provided in json fromat example:
+{"oldPassword":"root","newPassword":"admin"}. note: Choose what ypu wan to change.
+```
 - GET /users/:id Retrieves a specific user by ID.
 - DELETE /users/:id Deletes a specific user by ID.
 - DELETE /users Deletes all users.
