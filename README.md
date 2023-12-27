@@ -7,10 +7,10 @@ This repository contains a CRUD (Create, Read, Update, Delete) application built
 List the available APIs and their endpoints:
 
 - GET /users Retrieves all users.
-- POST /users/signup Creates a new user.
-- POST /users/signin Authenticates a user.
-- PATCH /users/:id Updates a user's information.
-- PATCH /users/changepassword/:id Changes a user's password.
+- POST /users/signup Creates a new user. Data should be provided in json fromat example: {email:sushil@gmail.com,password:root,firstName:sushil,lastName:gupta}
+- POST /users/signin Authenticates a user. Data should be provided in json fromat example: {email:sushil@gmail.com,password:root}
+- PATCH /users/:id Updates a user's information. Data should be provided in json fromat example: {email:sushil@gmail.com,firstName:sushil,lastName:gupta}. note: Choose what ypu wan to change.
+- PATCH /users/changepassword/:id Changes a user's password. Data should be provided in json fromat example: {oldPassword:root,newPassword:admin}. note: Choose what ypu wan to change.
 - GET /users/:id Retrieves a specific user by ID.
 - DELETE /users/:id Deletes a specific user by ID.
 - DELETE /users Deletes all users.
