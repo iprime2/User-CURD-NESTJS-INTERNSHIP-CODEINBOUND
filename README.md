@@ -20,7 +20,8 @@ List the available APIs and their endpoints:
 - PATCH /users/:id Updates a user's information.
 ```bash
   Data should be provided in json fromat example:
-{"email":"sushil@gmail.com","firstName":"sushil","lastName":"gupta"}. note: Choose what ypu wan to change.
+{"email":"sushil@gmail.com","firstName":"sushil","lastName":"gupta"}.
+note: Choose what ypu wan to change.
 ```
 - PATCH /users/changepassword/:id Changes a user's password.
 ```bash
